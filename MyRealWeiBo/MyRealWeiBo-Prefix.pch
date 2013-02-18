@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'MyRealWeiBo' target in the 'MyRealWeiBo' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import "WeiboCell.h"
+#define offset_y 6
+#define offset_x 6
+#define profile_Size 45//头像宽和高
+#define img_Height 80 //博文中图片的高
+#define text_Width 240//博文的宽度
+#define create_date_Height 20//创建日期高度
+#define ATTSTR @"att_string"
+#define IMGARR @"img_arr"
+#define USERS  @"users"
+#define TOPICS @"topics"
+#define TEXTHEIGHT @"text_height"
+#endif
